@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+"""Zoom in"""
 from typing import List
+
 
 def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
     zoomed_in = [item for item in lst for i in range(factor)]
